@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+input {
+  margin-left: 10px;
+  min-height: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-left: 12px;
+  margin-bottom: 6px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form > button {
+  display: flex;
+  align-self: center;
+}
+
+
+
+.reminder-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.reminder-container {
+  width: 30em;
+  height: 2em;
+  display: flex;
+  color: #000;
+  border: 1px solid #686868;
+  align-items: center;
+  padding: 0 1em;
+  border-radius: 5px;
+  justify-content: space-between;
+}
